@@ -1,0 +1,1 @@
+This project got really weird when I started trying to submit it for the Basic HTML assignment. It was under the account btech-webdev-22 and I don't know why. I copied the work I did into this repo, which I actually own and can make public. Long story short, I don't know how to get you the commit history and I hope that's okay.
