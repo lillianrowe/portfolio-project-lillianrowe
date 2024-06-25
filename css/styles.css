@@ -139,13 +139,6 @@ footer p {
 }
 
 .edu-img {
-	/* this is the working code that I have for backup
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	overflow: hidden;
-	max-height: 600px;
-	*/
 	display: grid;
 	grid-template-rows: auto auto;
 	justify-content: center;
