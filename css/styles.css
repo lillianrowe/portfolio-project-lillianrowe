@@ -139,7 +139,15 @@ footer p {
 }
 
 .edu-img {
+	/* this is the working code that I have for backup
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	max-height: 600px;
+	*/
+	display: grid;
+	grid-template-rows: auto auto;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
@@ -150,10 +158,34 @@ footer p {
 	flex-shrink: 0;
 	min-width: 100%;
 	min-height: 100%;
+	align-self: center;
 }
 
 .edu-img p {
+	display: table;
 	text-align: left;
-	color: #fff;
-	background-color: rgba(255, 255, 255, 0.3);
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ================ portfolio ====================== */
+
+/*hero*/
+#portfolio-hero {
+	text-align: center;
+	background-color: #38383d;
+}
+
+#portfolio-hero h1 {
+	line-height: 5;
+}
+
+/*content*/
+#portfolio-content {
+	margin: 20px;
+}
+
+.portfolio-content-text {
+	text-align: center;
+	font-size: large;
 }
