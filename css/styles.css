@@ -125,4 +125,15 @@ footer p {
 /*content*/
 #edu-content {
 	margin: 30px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.edu-content-text {
+	padding: 10px 25px 10px 10px;
+}
+
+.edu-img img {
+	width: 10000px;
+	height: auto;
 }
