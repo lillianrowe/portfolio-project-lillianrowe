@@ -238,3 +238,17 @@ footer p {
 }
 
 /*content*/
+#workexp-content {
+	margin: 30px;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.workexpt-text {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.workexp-img img {
+	border-radius: 5px;
+}
