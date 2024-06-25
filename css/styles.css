@@ -125,12 +125,4 @@ footer p {
 /*content*/
 #edu-content {
 	margin: 30px;
-	background-image: url(../img/edu-img.jpg);
-	background-repeat: no-repeat;
-	height: 300px;
-	width: auto;
-}
-
-.edu-content-text {
-	background-color: #000;
 }
