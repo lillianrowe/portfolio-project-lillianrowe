@@ -6,10 +6,10 @@ body {
 	color: #fff;
 }
 
-footer hr {
-	border: 0px;
+body hr {
+	border: 1px;
 	height: 1px;
-	background: white;
+	background: #38383d;
 	background-image: linear-gradient (to right, #000, #fff, #000);
 }
 
@@ -108,4 +108,29 @@ footer p {
 	margin: 20px 200px 20px auto;
 	text-align: center;
 	vertical-align: middle;
+}
+
+/* =================== education ===================== */
+
+/*hero*/
+#edu-hero {
+	text-align: center;
+	background-color: #38383d;
+}
+
+#edu-hero h1 {
+	line-height: 5;
+}
+
+/*content*/
+#edu-content {
+	margin: 30px;
+	background-image: url(../img/edu-img.jpg);
+	background-repeat: no-repeat;
+	height: 300px;
+	width: auto;
+}
+
+.edu-content-text {
+	background-color: #000;
 }
