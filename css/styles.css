@@ -93,13 +93,18 @@ footer p {
 
 .contact-container {
 	display: grid;
-	grid-template-rows: auto auto;
+	grid-template-rows: auto auto auto;
 	padding: 10px 50px;
 }
 
 .contact-heading {
 	text-align: left;
 	line-height: 5;
+}
+
+.contact-text {
+	text-align: center;
+	font-size: 1.5em;
 }
 
 /*bio*/
@@ -267,6 +272,18 @@ footer p {
 	border-radius: 5px;
 }
 
+/* ========================= contact ========================== */
+
+/*hero*/
+#contact-hero {
+	text-align: center;
+	background-color: #38383d;
+}
+
+#contact-hero h1 {
+	line-height: 5;
+}
+
 /* ========================= contact form ========================== */
 
 .contact-form .name-first {
@@ -350,6 +367,8 @@ footer p {
 }
 
 .contact-form button:hover {
+	height: 55px;
+	width: 205px;
 	background: #38383d;
 	color: #fff;
 	-webkit-transition: 0.4s;
