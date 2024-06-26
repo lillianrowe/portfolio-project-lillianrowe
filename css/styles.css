@@ -86,9 +86,23 @@ footer p {
 
 /*contact*/
 #contact {
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
+.contact-container {
+	display: grid;
+	grid-template-rows: auto auto;
+	padding: 10px 50px;
+}
+
+.contact-heading {
+	text-align: left;
+	line-height: 5;
+}
+
+/*bio*/
 .grid-container {
 	background-color: #000;
 	color: #fff;
@@ -251,4 +265,94 @@ footer p {
 
 .workexp-img img {
 	border-radius: 5px;
+}
+
+/* ========================= contact form ========================== */
+
+.contact-form .name-first {
+	grid-area: fname;
+}
+
+.contact-form .name-last {
+	grid-area: lname;
+}
+
+.contact-form .email {
+	grid-area: email;
+}
+
+.contact-form .phone {
+	grid-area: phone;
+}
+
+.contact-form .subject {
+	grid-area: subject;
+}
+
+.contact-form .message {
+	grid-area: message;
+}
+
+.contact-form button {
+	grid-area: button;
+}
+
+.contact-form {
+	display: grid;
+	justify-items: center;
+	justify-content: left;
+	grid-template-areas:
+		"fname lname"
+		"email phone"
+		"subject subject"
+		"message message"
+		"button button";
+	grid-gap: 40px;
+}
+
+.contact-form input {
+	background: #38383d;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	min-width: 250px;
+	height: 50px;
+}
+
+.subject input {
+	min-width: 550px;
+}
+
+.contact-form textarea {
+	background: #38383d;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	min-width: 550px;
+	height: 150px;
+	padding: 10px;
+	resize: none;
+}
+
+.contact-form ::placeholder {
+	color: white;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+.contact-form button {
+	height: 50px;
+	width: 200px;
+	background: transparent;
+	color: white;
+	border: 2px solid #fff;
+	border-radius: 2px;
+}
+
+.contact-form button:hover {
+	background: #38383d;
+	color: #fff;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+	cursor: pointer;
 }
