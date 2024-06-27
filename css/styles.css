@@ -286,6 +286,18 @@ footer p {
 	line-height: 5;
 }
 
+/*information*/
+#service-information {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.service-information-text {
+	max-width: 400px;
+	text-align: center;
+}
+
 /* ========================= contact form ========================== */
 
 #contact-form {
