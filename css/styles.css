@@ -94,7 +94,9 @@ footer p {
 .contact-container {
 	display: grid;
 	grid-template-rows: auto auto auto;
-	padding: 10px 50px;
+	padding: 10px 30px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 3px;
 }
 
 .contact-heading {
@@ -286,6 +288,18 @@ footer p {
 
 /* ========================= contact form ========================== */
 
+#contact-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/contact-img.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	border-radius: 10px;
+	padding: 30px;
+}
+
 .contact-form .name-first {
 	grid-area: fname;
 }
@@ -336,7 +350,16 @@ footer p {
 	height: 50px;
 }
 
+.contact-form input:focus {
+	min-width: 255px;
+	height: 55px;
+}
+
 .subject input {
+	min-width: 550px;
+}
+
+.subject input:focus {
 	min-width: 550px;
 }
 
@@ -360,17 +383,16 @@ footer p {
 .contact-form button {
 	height: 50px;
 	width: 200px;
-	background: transparent;
+	background: #38383d;
 	color: white;
-	border: 2px solid #fff;
-	border-radius: 2px;
+	border-radius: 3px;
 }
 
 .contact-form button:hover {
 	height: 55px;
 	width: 205px;
-	background: #38383d;
-	color: #fff;
+	background: #fff;
+	color: #38383d;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 	cursor: pointer;
